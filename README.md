@@ -1,1 +1,0 @@
-# CPP_PRACTICAL2
