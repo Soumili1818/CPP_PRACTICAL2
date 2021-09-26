@@ -1,7 +1,7 @@
 #README
 
 #STEP-1
-Preprocessing is the first pass of any C compilation. It removes comments, expands include-files and macros, and processes conditional compilation instructions. This can be output as a .i file.
+Preprocessing is the first pass of any C++ compilation. It removes comments, expands include-files and macros, and processes conditional compilation instructions. This can be output as a .i file.
 
 #STEP-2
 Compilation is the second pass. It takes the output of the preprocessor, and the source code, and generates assembler source code (hello.s). Assembly language is a low-level programming language (even lower than C) that is still human-readable but consists of mnemonic instructions that have strong correspondence to machine instructions.
