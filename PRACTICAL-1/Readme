@@ -1,0 +1,13 @@
+#README
+
+#STEP-1
+Preprocessing is the first pass of any C compilation. It removes comments, expands include-files and macros, and processes conditional compilation instructions. This can be output as a .i file.
+
+#STEP-2
+Compilation is the second pass. It takes the output of the preprocessor, and the source code, and generates assembler source code (hello.s). Assembly language is a low-level programming language (even lower than C) that is still human-readable but consists of mnemonic instructions that have strong correspondence to machine instructions.
+
+#STEP-3
+Assembly is the third stage of compilation. It takes the assembly source code and produces an object file hello.o, which contains actual machine instructions and symbols (e.g., function names) that are no longer human-readable since they are in bits.
+
+#STEP-4
+Linking is the final stage of compilation. It takes one or more object files or libraries as input and combines them to produce a single (usually executable) file. In doing so, it resolves references to external symbols, assigns final addresses to procedures/functions and variables, and revises code and data to reflect new addresses (a process called relocation).
